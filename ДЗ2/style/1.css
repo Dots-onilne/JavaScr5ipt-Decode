@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 520px;   ;
+    width: 99%;
+    border: 10px solid #285ceb ;
+
+}
+
+.team {
+height: 200px;
+width: 200px;
+margin-left: 70px;
+/* border: 5px solid  rgb(240, 0, 0); */
+border-radius: 60%;
+margin: 5%;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+   
+}
+body {
+    background: #a2dfda;
+}
+
+.title {
+    /* border: 1px solid rgb(0, 0, 0); */
+    text-align: center;
+} 
+
+.subtitle{
+    text-align: center;
+}

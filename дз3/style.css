@@ -1,0 +1,48 @@
+.sticky{
+    position: sticky;
+    text-align: center;
+    color: #5680E9;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #84CEEB;
+}
+.relative{
+    /* position: relative; */
+    top: 20px;
+    left: 20px;
+    right: 40px;
+    bottom: 20px;
+    text-align: justify;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background: #5AB9EA;
+    /* border: 5px #5AB9EA solid; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* color: #8860D0; */
+}
+
+.flexbox{
+    width: 27%;
+    height: 200px;
+    background: #C1C8E4;
+    border: 1px #8860D0 solid;
+    text-align: center;
+
+}
+
+.flexbox:hover {
+    border-bottom: 5px solid white;
+}
+
+.body{
+    align-items: center;
+}
+.fonts{
+    margin: 20px; 
+}
